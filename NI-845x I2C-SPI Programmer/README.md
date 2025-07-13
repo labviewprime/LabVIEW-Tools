@@ -39,11 +39,9 @@ And these functions are added in revision 2.0:
 	
 See the documentation in the project for more detailed information]
 
-This project was updated: May 24, 2025
-
 ## LabVIEW Version
 
-This project was created and last saved with **LabVIEW 2015 SP1 (32-bit)**.
+This project was created and last saved with **LabVIEW 2025 Q1 (32-bit)**.
 * Tested on Microsoft Windows 7, 10 and 11 32/64-bit*
 *It is highly recommended to open this project with the same LabVIEW version or a newer one. Opening with an older version may not be possible or may lead to compatibility issues.*
 
@@ -92,9 +90,9 @@ Any other software needed to run or interact with this project:
 	git clone [URL_to_your_GitHub_repository]
 	```
 2.  **Ensure all [Dependencies](#dependencies) and [Hardware Requirements](#hardware-requirements-if-applicable) are met.**
-3.  **Open the LabVIEW Project:** Navigate to the cloned directory and open `[YourProjectName].lvproj`.
-4.  **Open the Main VI:** From the Project Explorer, open `[MainVI_Name.vi]` (e.g., `Main.vi`).
-5.  **Run the VI:** Click the Run arrow on the Front Panel or Block Diagram of `[MainVI_Name.vi]`.
+3.  **Open the LabVIEW Project:** Navigate to the cloned directory and open `NI845X EEPROM Programmer.lvproj`.
+4.  **Open the Main VI:** From the Project Explorer, open `NI845X EEPROM Programmer.vi`
+5.  **Run the VI:** Click the Run arrow on the Front Panel or Block Diagram of `NI845X EEPROM Programmer.vi`.
 6.  **Instructions for use:**
 	* [Step 1: e.g., Enter configuration parameters in the "Settings" tab.]
 	* [Step 2: e.g., Press the "Start Acquisition" button.]
@@ -105,24 +103,20 @@ Any other software needed to run or interact with this project:
 
 *(It's highly recommended to add screenshots of your Front Panel(s) or key Block Diagram sections to give users a visual understanding of the project.)*
 
-**Example Front Panel:**
-**Example Block Diagram Snippet:**
 ## Building an Executable (if applicable)
 
 If your project includes a Build Specification for creating an executable:
 
-1.  Open `[YourProjectName].lvproj`.
+1.  Open `NI845X EEPROM Programmer.lvproj`.
 2.  In the Project Explorer, find "Build Specifications".
-3.  Expand it and right-click on `[Your_Build_Specification_Name]`.
+3.  Expand it and right-click on `NI845X EEPROM Programmer`.
 4.  Select "Build".
 5.  The executable will be located in `[Output_Directory_Specified_In_Build_Spec]`.
-6.  *(Add any notes about installers or runtime engine requirements for the executable.)*
+6.  LabVIEW executables require the corresponding LabVIEW 2025 Runtime installed.
 
 ## Known Issues / Limitations
 
-* [e.g., The current version does not support input voltages above X V.]
-* [e.g., Performance degradation observed when logging more than Y channels simultaneously.]
-* [e.g., UI may flicker if the window is resized rapidly.]
+* None
 
 ## Contributing
 
@@ -151,9 +145,14 @@ This project is licensed under the MIT License. See the `LICENSE.md` file for de
 Working with LabVIEW files in Git requires some special considerations:
 
 * **`.gitignore`:** A good `.gitignore` file is crucial for LabVIEW projects to exclude auto-generated files, backup files, and build artifacts. Ensure your repository has a comprehensive `.gitignore` for LabVIEW. (You can find templates online, e.g., searching for "LabVIEW gitignore").
+
 * **VI Diff/Merge:** Natively, Git does not handle VI diffs and merges well due to the binary nature of VI files (though they are XML-based under the hood if uncompressed).
 	* Consider using NI's built-in tools or third-party tools (like LVCompare for diffing) if you need to compare VI versions.
 	* For merging, textual merge tools are generally not effective for VI block diagrams. Coordinate with your team to avoid concurrent modifications to the same VI. Use VI locking in the project if working in a team.
+
 * **Saving VIs:** Always save VIs in the LabVIEW version specified or a newer one. Avoid down-saving unless absolutely necessary and tested.
-* **Separation of Compiled Code:** In LabVIEW project settings (`File > Project Properties > Project`), ensure "Separate compiled code from source file" is **unchecked** for easier Git management if you are not using a specific workflow that requires it. If it's checked, Git might not track changes to the diagram if only compiled code changed. Most modern advice leans towards keeping it separate for cleaner diffs, so choose what works for your team and be consistent. *Edit: Modern best practice is often to **check** this (separate compiled code) to reduce binary changes when only data or settings change. Clarify your team's preference.*
+
+* **Separation of Compiled Code:** In LabVIEW project settings (`File > Project Properties > Project`), ensure "Separate compiled code from source file" is **unchecked** for easier Git management if you are not using a specific workflow that requires it. If it's checked, Git might not track changes to the diagram if only compiled code changed. Most modern advice leans towards keeping it separate for cleaner diffs, so choose what works for your team and be consistent. *
+
+Edit: Modern best practice is often to **check** this (separate compiled code) to reduce binary changes when only data or settings change.
 
