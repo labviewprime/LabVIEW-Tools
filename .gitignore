@@ -7,39 +7,39 @@
 
 # Build output
 builds/
-*.aliases
-*.lvlps
-*.lvlibp
-*.lvclass
-*.lvlib
-*.llb
-*.exe
-*.dll
-*.bin
-*.nipkg
-*.vip
-*.vib
-*.lvappimg
+**/.aliases
+**/.lvlps
+**/.lvlibp
+**/.lvclass
+**/.lvlib
+**/.llb
+**/.exe
+**/.dll
+**/.bin
+**/.nipkg
+**/.vip
+**/.vib
+**/.lvappimg
 
 # Project backups
 project_backup/
 *.lvproject.backup-*
 
 # Packed Project Library build output
-*.lvdist
-*.lvdisttree
+**/.lvdist
+**/.lvdisttree
 
 # NI Package Manager
-*.nipm
-*.spec
+**/.nipm
+**/.spec
 
 # User-specific files
-*.aliases.user
-*.lvlps.user
-*.lvlibp.user
-*.lvclass.user
-*.lvlib.user
-*.lvproject.user
+**/.aliases.user
+**/.lvlps.user
+**/.lvlibp.user
+**/.lvclass.user
+**/.lvlib.user
+**/.lvproject.user
 
 # LabVIEW temp files
 ~*.vi

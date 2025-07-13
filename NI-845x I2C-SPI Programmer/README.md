@@ -22,80 +22,68 @@
 
 ## Project Description
 
-[Provide a concise description of what your LabVIEW project does. What problem does it solve? What are its main features?]
+[The NI-845x EEPROM Programmer is a Windows 7, 10 & 11 LabVIEW application. It is intended to be used by engineers and technical users knowledgeable in EEPROM binary data programming and structure.
 
-This project was developed on May 24, 2025
+The following functions were supported in version 1.0 to 1.5:
+    • ERASE
+    • ERASE ALL
+    • WRITE
+    • WRITE ALL
+    • READ
+    • READ ALL
+    • DEBUG
+And these functions are added in revision 2.0:
+    • EEPROM content dump to binary (BIN) file
+    • Binary file upload to EEPROM
+    • Security hash (checksum) of BIN file with MD5 cypher algorithm
+	
+See the documentation in the project for more detailed information]
+
+This project was updated: May 24, 2025
 
 ## LabVIEW Version
 
-This project was created and last saved with **LabVIEW 2015 SP1**.
-
-* **Full Version String (optional but helpful):** [e.g., LabVIEW 23.1.0f1 (64-bit)]
-* **Operating System used during development:** [e.g., Windows 10, macOS Sonoma]
-
+This project was created and last saved with **LabVIEW 2015 SP1 (32-bit)**.
+* Tested on Microsoft Windows 7, 10 and 11 32/64-bit*
 *It is highly recommended to open this project with the same LabVIEW version or a newer one. Opening with an older version may not be possible or may lead to compatibility issues.*
 
 ## Dependencies
+
+* NI-845x device driver
 
 ### Toolkits & Modules
 
 Ensure the following NI Toolkits and Modules are installed in your LabVIEW environment:
 
-* [e.g., NI Vision Development Module XX.X]
-* [e.g., NI Sound and Vibration Toolkit XX.X]
-* [e.g., JKI VI Package Manager (VIPM) - if used for packages]
-* [e.g., NI Real-Time Module (if a Real-Time target is involved)]
-* [e.g., NI FPGA Module (if an FPGA target is involved)]
-* *(List all required toolkits and their versions if critical)*
+* Not applicable
 
 ### Hardware Drivers
 
 If this project interacts with hardware, the following drivers are required:
 
-* [e.g., NI-DAQmx XX.X]
-* [e.g., NI-VISA XX.X]
-* [e.g., Specific Instrument Drivers - specify name and version]
-* *(List all necessary drivers and their versions)*
+* Not applicable
 
 ### Other Libraries/VIs
 
 List any third-party libraries, custom VIs (not part of this project but are dependencies), or VI Packages (from VIPM) required:
 
-* [e.g., OpenG Application Control Toolkit]
-* [e.g., MyCustomLibrary.lvlib - specify source or include if not in repo]
-* [e.g., Package Name from VIPM vX.X.X]
+* None
 
 ## Hardware Requirements (if applicable)
 
 This project is designed to work with the following hardware:
 
-* [e.g., NI cDAQ-9178 chassis]
-* [e.g., NI 9215 C Series Module]
-* [e.g., Specific model of a power supply, camera, sensor, etc.]
-* *(Be as specific as possible)*
+* NI-845x EEPROM Programmer
 
 ## Software Requirements (beyond LabVIEW)
 
 Any other software needed to run or interact with this project:
 
-* [e.g., Specific database software and version]
-* [e.g., Python 3.x (if using Python nodes)]
-* [e.g., .NET Framework version X.X]
+* Not applicable
 
 ## Project Structure & Key VIs
 
-A brief overview of the project's organization:
 
-* **`Main.vi` (or your primary VI):** [Brief description of what this main VI does and how to launch it.]
-* **Project Explorer File:** `[YourProjectName].lvproj` - This is the main file to open the project and manage its contents.
-* **Libraries (`.lvlib`):**
-	* `[LibraryName1.lvlib]`: [Purpose of this library]
-	* `[LibraryName2.lvlib]`: [Purpose of this library]
-* **Classes (`.lvclass`):**
-	* `[ClassName1.lvclass]`: [Purpose of this class]
-* **SubVIs Folder:** `SubVIs/` [Description of common utilities or functional blocks]
-* **Data Folder:** `Data/` [Description of any data files, configurations, etc.]
-* *(Adjust this section to reflect your project's actual structure. Highlighting the entry point VI is crucial.)*
 
 ## How to Run / Use This Project
 
@@ -151,13 +139,12 @@ Please ensure your code adheres to any style guides used in this project (e.g., 
 
 ## License
 
-This project is licensed under the [Your License Name, e.g., MIT License, Apache 2.0] - see the `LICENSE.md` file for details.
+This project is licensed under the MIT License. See the `LICENSE.md` file for details.
 *(If you don't have a LICENSE.md, you should add one. Choosealicense.com can help.)*
 
 ## Author(s) / Contact
 
-* **[Your Name / Organization Name]** - [your-email@example.com] - [Optional: Link to your GitHub profile or website]
-* *(Add other contributors if any)*
+* **[labviewprime / CoderBear.net]** - [labviewcoder@gmail.com] - [https://github.com/labviewprime]
 
 ## Git & LabVIEW Notes
 
@@ -170,6 +157,3 @@ Working with LabVIEW files in Git requires some special considerations:
 * **Saving VIs:** Always save VIs in the LabVIEW version specified or a newer one. Avoid down-saving unless absolutely necessary and tested.
 * **Separation of Compiled Code:** In LabVIEW project settings (`File > Project Properties > Project`), ensure "Separate compiled code from source file" is **unchecked** for easier Git management if you are not using a specific workflow that requires it. If it's checked, Git might not track changes to the diagram if only compiled code changed. Most modern advice leans towards keeping it separate for cleaner diffs, so choose what works for your team and be consistent. *Edit: Modern best practice is often to **check** this (separate compiled code) to reduce binary changes when only data or settings change. Clarify your team's preference.*
 
----
-
-Remember to replace the bracketed placeholders `[...]` with your project's specific information. Good luck!
