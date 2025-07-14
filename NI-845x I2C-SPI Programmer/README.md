@@ -1,5 +1,5 @@
 # LabVIEW-Tools
-[![LabVIEW 2015](https://img.shields.io/badge/LabVIEW-20XX%20SPX-yellowgreen.svg)](https://www.ni.com/labview)
+[![LabVIEW 2025](https://img.shields.io/badge/LabVIEW-2025%20Community%20Edition-yellowgreen.svg)](https://www.ni.com/labview)
 ## Table of Contents
 
 - [Project Description](#project-description)
@@ -22,28 +22,29 @@
 
 ## Project Description
 
-[The NI-845x EEPROM Programmer is a Windows 7, 10 & 11 LabVIEW application. It is intended to be used by engineers and technical users knowledgeable in EEPROM binary data programming and structure.
+The NI-845x EEPROM Programmer is a Windows 7, 10 & 11 LabVIEW application. It is intended to be used by engineers and technical users knowledgeable in EEPROM binary data programming and structure.
 
 The following functions were supported in version 1.0 to 1.5:
-    • ERASE
-    • ERASE ALL
-    • WRITE
-    • WRITE ALL
-    • READ
-    • READ ALL
-    • DEBUG
+    * ERASE
+    * ERASE ALL
+    * WRITE
+    * WRITE ALL
+    * READ
+    * READ ALL
+    * DEBUG
+
 And these functions are added in revision 2.0:
-    • EEPROM content dump to binary (BIN) file
-    • Binary file upload to EEPROM
-    • Security hash (checksum) of BIN file with MD5 cypher algorithm
+    * EEPROM content dump to binary (BIN) file
+    * Binary file upload to EEPROM
+    * Security hash (checksum) of BIN file with MD5 cypher algorithm
 	
-See the documentation in the project for more detailed information]
+See the included documentation in the project for more detailed information.
 
 ## LabVIEW Version
 
 This project was created and last saved with **LabVIEW 2025 Q1 (32-bit)**.
-* Tested on Microsoft Windows 7, 10 and 11 32/64-bit*
-*It is highly recommended to open this project with the same LabVIEW version or a newer one. Opening with an older version may not be possible or may lead to compatibility issues.*
+* Tested on Microsoft Windows 7, 10 and 11 32/64-bit
+* It is highly recommended to open this project with the same LabVIEW version or a newer one. Opening with an older version may not be possible or may lead to compatibility issues.
 
 ## Dependencies
 
@@ -81,7 +82,7 @@ Any other software needed to run or interact with this project:
 
 ## Project Structure & Key VIs
 
-
+* NI845X EEPROM Programmer.vi
 
 ## How to Run / Use This Project
 
@@ -94,10 +95,7 @@ Any other software needed to run or interact with this project:
 4.  **Open the Main VI:** From the Project Explorer, open `NI845X EEPROM Programmer.vi`
 5.  **Run the VI:** Click the Run arrow on the Front Panel or Block Diagram of `NI845X EEPROM Programmer.vi`.
 6.  **Instructions for use:**
-	* [Step 1: e.g., Enter configuration parameters in the "Settings" tab.]
-	* [Step 2: e.g., Press the "Start Acquisition" button.]
-	* [Step 3: e.g., Observe the data on the "Results Graph".]
-	* *(Provide clear, step-by-step instructions on how to operate your VI from the Front Panel.)*
+	* See the included documentation for usage instructions & examples.
 
 ## Screenshots (Optional)
 
@@ -138,7 +136,7 @@ This project is licensed under the MIT License. See the `LICENSE.md` file for de
 
 ## Author(s) / Contact
 
-* **[labviewprime / CoderBear.net]** - [labviewcoder@gmail.com] - [https://github.com/labviewprime]
+* **labviewprime / CoderBear.net** - labviewcoder@gmail.com - https://github.com/labviewprime
 
 ## Git & LabVIEW Notes
 
@@ -152,7 +150,6 @@ Working with LabVIEW files in Git requires some special considerations:
 
 * **Saving VIs:** Always save VIs in the LabVIEW version specified or a newer one. Avoid down-saving unless absolutely necessary and tested.
 
-* **Separation of Compiled Code:** In LabVIEW project settings (`File > Project Properties > Project`), ensure "Separate compiled code from source file" is **unchecked** for easier Git management if you are not using a specific workflow that requires it. If it's checked, Git might not track changes to the diagram if only compiled code changed. Most modern advice leans towards keeping it separate for cleaner diffs, so choose what works for your team and be consistent. *
-
-Edit: Modern best practice is often to **check** this (separate compiled code) to reduce binary changes when only data or settings change.
+* **Separation of Compiled Code:** In LabVIEW project settings (`File > Project Properties > Project`), ensure "Separate compiled code from source file" is **unchecked** for easier Git management if you are not using a specific workflow that requires it. If it's checked, Git might not track changes to the diagram if only compiled code changed. Most modern advice leans towards keeping it separate for cleaner diffs, so choose what works for your team and be consistent.
+* Note: Modern best practice is often to **check** this (separate compiled code) to reduce binary changes when only data or settings change.
 
