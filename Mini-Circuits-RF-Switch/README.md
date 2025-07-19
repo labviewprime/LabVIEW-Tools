@@ -59,7 +59,7 @@ List any third-party libraries, custom VIs (not part of this project but are dep
 
 This project is designed to work with the following hardware:
 
-* Mini-Circuits RC-1SP6T-A12, RC-2SP6T-A12 bench-top RF switch boxes.
+* Mini-Circuits [RC-1SP6T-A12, RC-2SP6T-A12](https://www.minicircuits.com/WebStore/RF-Mechanical-Compact-Switch.html) bench-top RF switch boxes.
 * May work, but not tested, with other MCL switch box models with minimal modifications.
 
 ## Software Requirements (beyond LabVIEW)
