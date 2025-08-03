@@ -1,0 +1,5 @@
+GPIB Alias,Channel,Voltage,Current, V Query, I Query
+PS1,1,1.0,0.1,,
+PS1,2,1.0,0.1,,
+PS1,3,1.0,0.1,,
+PS1,4,1.0,0.1,,
