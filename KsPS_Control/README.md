@@ -1,35 +1,8 @@
 <div align="center">
-
-  <img src="URL_TO_YOUR_PROJECT_LOGO_OR_BANNER" alt="Project Banner/Logo" width="700"/>
-
+  <img src="Misc/default.png" alt="Ks N6700 Front Panel Display"/>
   <h1>KsPS Power Supply Control Tool </h1>
-
   <p>
     <strong><em>KsPS Power Supply Control Tool is designed to abstract test instrument vendor drivers using QMH-style framework for easy debugging and feature additions</em></strong>
-  </p>
-
-  <p>
-    <a href="https://github.com/labviewprime/KsPS_Control/blob/main/LICENSE.md">
-      <img src="https://img.shields.io/github/license/YOUR_USERNAME/YOUR_REPOSITORY_NAME?style=for-the-badge" alt="License">
-    </a>
-    <a href="https://github.com/labviewprime/KsPS_Control/releases">
-      <img src="https://img.shields.io/github/v/release/YOUR_USERNAME/YOUR_REPOSITORY_NAME?style=for-the-badge&include_prereleases" alt="GitHub release (latest by date including pre-releases)">
-    </a>
-    <a href="https://github.com/labviewprime/KsPS_Control/issues">
-      <img src="https://img.shields.io/github/issues/YOUR_USERNAME/YOUR_REPOSITORY_NAME?style=for-the-badge" alt="GitHub issues">
-    </a>
-    <a href="https://github.com/labviewprime/KsPS_Control/stargazers">
-      <img src="https://img.shields.io/github/stars/YOUR_USERNAME/YOUR_REPOSITORY_NAME?style=for-the-badge" alt="GitHub stars">
-    </a>
-    <img src="https://img.shields.io/badge/LabVIEW-20XX_SPX-orange?style=for-the-badge&logo=nationalinstruments" alt="LabVIEW Version">
-    </p>
-
-  <p>
-    <a href="#-about-the-project"><strong>About</strong></a> ·
-    <a href="#-getting-started"><strong>Getting Started</strong></a> ·
-    <a href="#-usage"><strong>Usage</strong></a> ·
-    <a href="#-key-vis-and-libraries"><strong>Project Structure</strong></a> ·
-    <a href="#-contributing"><strong>Contribute</strong></a>
   </p>
 </div>
 
@@ -104,7 +77,6 @@ The listed instruments are the minimum required to be installed in <Labview inst
 
 ## 🖼️ Screenshots / Front Panels
 
-![Ks N6700 Front Panel Display](Misc/default.png)
 
 ## 🚀 Getting Started
 
