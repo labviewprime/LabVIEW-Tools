@@ -46,7 +46,7 @@ KsPS Power Supply Control Tool is a LabVIEW application to control Agilent/Keysi
 
 ### 💻 Software Requirements
 
-* **LabVIEW Version:** `LabVIEW Community Edition 2015 SP1 Windows 32-bit`
+* **LabVIEW Version:** `LabVIEW 2015 SP1 Windows 32/64-bit, or newer`
 
 * **Required NI Toolkits & Modules:**
     * `None`
@@ -86,7 +86,7 @@ Follow these steps to get the LabVIEW project up and running on your system.
 
 Ensure you have the following installed and configured **before** opening the project:
 
-1.  **LabVIEW Development Environment:** `LabVIEW 2015 SP1 Windows 64-bit, or newer` (as specified in [Software Requirements](#-software-requirements)).
+1.  **LabVIEW Development Environment:** `LabVIEW 2015 SP1 Windows 32/64-bit, or newer` (as specified in [Software Requirements](#-software-requirements)).
 2.  **All NI Toolkits & Modules:** As listed in [Software Requirements](#-software-requirements).
 3.  **All NI Drivers:** As listed in [Software Requirements](#-software-requirements).
     * *Tip: Use NI MAX (Measurement & Automation Explorer) to verify driver installation and device communication.*
