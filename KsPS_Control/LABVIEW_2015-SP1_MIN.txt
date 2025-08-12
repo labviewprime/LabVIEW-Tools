@@ -1,1 +1,0 @@
-LVOOP Instruments require LabVIEW 2015 SP1 or newer.
