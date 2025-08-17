@@ -26,7 +26,8 @@ AgKs_SpecAn_Screen_Capture is a simple screen capture tool for most Agilent PSA/
     * `None`
 
 * **Required NI Drivers:**
-    * `Agilent/Keysight N6700 LabVIEW driver (Project style)
+    * `Agilent/Keysight MXA/PXA-Series spectrum analyzer (Project style)
+	* `Agilent/Keysight PSA/ESA-Series spectrum analyzer (Project style)
 
 * **Other Software Dependencies:**
     * `NI-VISA`
@@ -41,10 +42,12 @@ The listed instruments are the minimum required to be installed in <Labview inst
   * `Windows 7/10/11 - 64-bit`
 
 * **Instruments:**
-    * `Agilent PSA/ESA spectrum analyzers`
+
 	* `Keysight MXA/PXA spectrum analyzers`
+	* `Agilent PSA/ESA spectrum analyzers`
 
 * **Cabling:**
+
     * `GPIB Cable`
     * `Ethernet Cable`
 
@@ -88,9 +91,9 @@ Ensure you have the following installed and configured **before** opening the pr
     * The configuration text file (PS_Config.txt) can be located anywhere in your local directories.
     * The KsPS_Control application generates and saves an INI to C:\Users\Public\Documents\[VI name]\{VI name].ini at exit.
 	* The KsPS_Control application generates and saves an INI to C:\Users\Public\Documents\[VI name]\{VI name].ini when SAVE button is pressed.
-* **Hardware Setup in NI MAX:** Ensure the N67xx parameters are correctly configured in NI MAX (Devices and Interfaces) and that their Aliases match those expected by the LabVIEW application (PS1, PS2, etc.)
+* **Hardware Setup in NI MAX:** Ensure the PSA/ESA or PXA/MXA spectrum analyzer parameters are correctly configured in NI MAX (Devices and Interfaces) and that their Aliases match those expected by the LabVIEW application (e.g. SpecAn, SpecAn1)
 	* If communicating over Ethernet, ensure the instrument handle URI or Alias are properly configured in NI MAX in Devices and Interfaces\Network Devices.
-	* Use Windows terminal window (CMD or PowerShell) to PING to the Keysight N67xx power supply frame.
+	* Verify the instrument Ethernet IP address is pingable from CMD or PowerShell tools (i.e. ping 192.168.1.1 -t)
 
 ---
 
@@ -117,9 +120,9 @@ Not applicable
 
 This project includes the following build specifications (accessible via the Project Explorer):
 
-* **`KsN6701 PS Control`:** Builds a standalone executable for Windows.
-    * Output Directory: `C:\Users\Public\Documents\LabVIEW\Builds`
-    * To run: Execute `KsN6701 PS Control.exe` after building.
+* **`Executable`:** Builds a standalone executable application.
+    * Output Directory: `C:\Tempo\Builds`
+    * To run: Execute `AgKs_SpecAn_Capture.exe` after building.
 
 To build an executable or installer:
 1.  Open `AgKs_SpecAn_Capture.lvproj`.
@@ -164,4 +167,4 @@ See `LICENSE.md` for more information.
 **Aldrin Albano (labviewprime)**
 
 * Email: labviewcoder@gmail.com (mailto:labviewcoder@gmail.com)
-* Project GitHub Issues: https://github.com/labviewprime/KsPS_Control/Issues/issues (https://github.com/labviewprime/AgKs_SpecAn_Capture/Issues/issues)
+* Project GitHub Issues: https://github.com/labviewprime/LabVIEW-Tools/issues
