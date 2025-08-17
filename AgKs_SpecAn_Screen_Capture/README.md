@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="Misc/default.png" alt="AgKs_SpecAn_Screen_Capture"/>
+  <img src="Misc/front-panel.png" alt="AgKs_SpecAn_Screen_Capture"/>
   <h1>AgKs_SpecAn_Screen_Capture</h1>
   <p>		
     <strong><em>AgKs_SpecAn_Screen_Capture is a simple screen capture tool for most Agilent PSA/ESA and Keysight MXA/PXA spectrum analyzers</em></strong>
@@ -57,6 +57,7 @@ AgKs_SpecAn_Screen_Capture is a simple screen capture tool for most Agilent PSA/
 * **Other Software Dependencies:**
     * `NI-VISA`
     * `NI-488.2`
+	* `OpenG Toolkit/Library. Download & install via VI Package Manager`
 
 ### 🔩 Hardware Dependencies (Optional)
 
@@ -77,6 +78,7 @@ The listed instruments are the minimum required to be installed in <Labview inst
 
 ## 🖼️ Screenshots / Front Panels
 
+![AgKs_SpecAn_Screen_Capture](Misc/front-panel.png "AgKs_SpecAn_Screen_Capture")
 
 ## 🚀 Getting Started
 
