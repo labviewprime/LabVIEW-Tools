@@ -1,47 +1,22 @@
-<div align="center">
-  <img src="Misc/front-panel.png" alt="AgKs_SpecAn_Screen_Capture"/>
-  <h1>AgKs_SpecAn_Screen_Capture</h1>
-  <p>		
-    <strong><em>AgKs_SpecAn_Screen_Capture is a simple screen capture tool for most Agilent PSA/ESA and Keysight MXA/PXA spectrum analyzers</em></strong>
-  </p>
-</div>
-
----
-
-## 📖 Table of Contents
-
-* [About The Project](#-about-the-project)
-  * [Key Features](#-key-features)
-  * [Software Requirements](#-software-requirements)
-  * [Hardware Dependencies (Optional)](#-hardware-dependencies-optional)
-* [🖼️ Screenshots / Front Panels](#️-screenshots--front-panels)
-* [🚀 Getting Started](#-getting-started)
-  * [Prerequisites](#prerequisites)
-  * [Installation & Opening the Project](#installation--opening-the-project)
-  * [Configuration (Optional)](#configuration-optional)
-* [💡 Usage](#-usage)
-  * [Running the Main Application/VI](#running-the-main-applicationvi)
-  * [Using as a Library/SubVI](#using-as-a-librarysubvi)
-* [🔧 Key VIs and Libraries](#-key-vis-and-libraries)
-* [⚙️ Build Specifications (Optional)](#️-build-specifications-optional)
-* [🧪 Testing (Optional)](#-testing-optional)
-* [🗺️ Roadmap](#️-roadmap)
-* [🤝 Contributing](#-contributing)
-* [📜 License](#-license)
-* [🏆 Authors & Contributors](#-authors--contributors)
-* [🙏 Acknowledgements](#-acknowledgements)
-* [📞 Contact & Support](#-contact--support)
-
----
-
 ## 🌟 About The Project
 
 AgKs_SpecAn_Screen_Capture is a simple screen capture tool for most Agilent PSA/ESA and Keysight MXA/PXA spectrum analyzers
 
+---
+
+## 🖼️ Screenshots / Front Panels
+
+![AgKs_SpecAn_Screen_Capture](Misc/front-panel.png "AgKs_SpecAn_Screen_Capture")
+
+---
+
 ### ✨ Key Features
 
 * **A stand-alone GUI or Inlined** Perfect for engineering development, troubleshooting, or integrating to existing LabVIEW test application.
+
 * **Modular Design**  QMH framework for easy debugging and adding specific power supply feature, not already included.
+
+---
 
 ### 💻 Software Requirements
 
@@ -52,7 +27,6 @@ AgKs_SpecAn_Screen_Capture is a simple screen capture tool for most Agilent PSA/
 
 * **Required NI Drivers:**
     * `Agilent/Keysight N6700 LabVIEW driver (Project style)
-
 
 * **Other Software Dependencies:**
     * `NI-VISA`
@@ -74,11 +48,7 @@ The listed instruments are the minimum required to be installed in <Labview inst
     * `GPIB Cable`
     * `Ethernet Cable`
 
-* * *
-
-## 🖼️ Screenshots / Front Panels
-
-![AgKs_SpecAn_Screen_Capture](Misc/front-panel.png "AgKs_SpecAn_Screen_Capture")
+---
 
 ## 🚀 Getting Started
 
@@ -100,7 +70,7 @@ Ensure you have the following installed and configured **before** opening the pr
 ### Installation & Opening the Project
 
 1.  **Clone the repository:**
-	* TBD
+	* https://github.com/labviewprime/LabVIEW-Tools/AgKs_SpecAn_Screen_Capture
     * *Note on LabVIEW and Git:* Be mindful of LabVIEW's binary file format. Ensure your `.gitattributes` file is configured correctly to handle LV VIs, CTLs, etc., to minimize merge conflicts (often by marking them as binary or using `lvmerge` as a difftool/mergetool if set up).
 
 2.  **Open the LabVIEW Project File:**
@@ -157,15 +127,12 @@ To build an executable or installer:
 3.  To build an executable (EXE), right-click on the desired specification (e.g., `Executable Builder`) and select "Build".
 4.  To build an application installer, right-click on the desired specification (e.g., `Installer`) and select "Build".
 5.	Follow the prompts. The output will be in the specified output directory.
----
 
 ## 🧪 Testing (Optional)
 
 Not Required
 
-## 🗺️ Roadmap
-
-TBD
+---
 
 ## 🤝 Contributing
 
@@ -188,17 +155,9 @@ Please read [CONTRIBUTING.md](LINK_TO_YOUR_CONTRIBUTING_FILE) (if available) for
 Distributed under the **MIT License**.
 See `LICENSE.md` for more information.
 
----
-
 ## 🏆 Authors & Contributors
 
 * **Aldrin Albano** - [@labviewprime](https://github.com/labviewprime)
-
----
-
-## 🙏 Acknowledgements
-
----
 
 ## 📞 Contact & Support
 
