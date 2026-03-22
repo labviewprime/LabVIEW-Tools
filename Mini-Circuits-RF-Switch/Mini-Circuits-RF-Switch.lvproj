@@ -76,28 +76,27 @@
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeTypedefs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../Build</Property>
-				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/C/Builds</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{126E9163-D149-4E7D-B7B9-F981E74FF215}</Property>
 				<Property Name="Bld_version.build" Type="Int">1</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Mini-Circuits-RF-Switch.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../Build/NI_AB_PROJECTNAME.exe</Property>
-				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/Builds/NI_AB_PROJECTNAME.exe</Property>
+				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../Build/data</Property>
-				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
+				<Property Name="Destination[1].path" Type="Path">/C/Builds/data</Property>
+				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[2].destName" Type="Str">DLL</Property>
-				<Property Name="Destination[2].path" Type="Path">../Build/DLL</Property>
-				<Property Name="Destination[2].path.type" Type="Str">relativeToProject</Property>
+				<Property Name="Destination[2].path" Type="Path">/C/Builds/DLL</Property>
+				<Property Name="Destination[2].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[3].destName" Type="Str">Config</Property>
-				<Property Name="Destination[3].path" Type="Path">../Build/Config</Property>
-				<Property Name="Destination[3].path.type" Type="Str">relativeToProject</Property>
+				<Property Name="Destination[3].path" Type="Path">/C/Builds/Config</Property>
+				<Property Name="Destination[3].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">4</Property>
-				<Property Name="Source[0].itemID" Type="Str">{1EF73280-A856-4455-A354-D7FA908C6BB9}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{F083E027-A15C-4A09-8255-22DC3639DE6D}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Mini-Circuits-RF-Switch.vi</Property>
@@ -111,14 +110,7 @@
 				<Property Name="Source[2].itemID" Type="Ref">/My Computer/DLL</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[2].type" Type="Str">Container</Property>
-				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[3].itemID" Type="Ref"></Property>
-				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[3].type" Type="Str">VI</Property>
-				<Property Name="Source[4].destinationIndex" Type="Int">3</Property>
-				<Property Name="Source[4].itemID" Type="Ref"></Property>
-				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="SourceCount" Type="Int">5</Property>
+				<Property Name="SourceCount" Type="Int">3</Property>
 				<Property Name="TgtF_companyName" Type="Str">CoderBear.Net</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">The Mini-Circuits-RF-Switch is a utility application to control Mini-Circuits RC series electro-mechanical RF switch boxes</Property>
 				<Property Name="TgtF_internalName" Type="Str">Mini-Circuits-RF-Switch</Property>
