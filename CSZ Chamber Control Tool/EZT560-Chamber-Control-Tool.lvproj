@@ -117,7 +117,6 @@
 				<Property Name="App_INI_aliasGUID" Type="Str">{C9A5EFC2-EBA4-450D-9CB0-B34D9B59FEC8}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{AFFD6406-FEC5-4D5E-BA7A-4B20F814620A}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
-				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{0EB7E40C-084C-4261-97F0-1C508B6F0CA1}</Property>
 				<Property Name="Bld_buildSpecDescription" Type="Str">For CSZ ZP-Series thermal chamber control</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">EZT560-Chamber-Control-Tool</Property>
@@ -125,24 +124,23 @@
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeTypedefs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">/C/NGC_BUILDS/NI_AB_PROJECTNAME</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/C/Builds</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{C0D3AE66-A693-4E0E-A4DF-B8A6A916546E}</Property>
-				<Property Name="Bld_version.build" Type="Int">10</Property>
-				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Bld_version.minor" Type="Int">1</Property>
+				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_version.major" Type="Int">2</Property>
 				<Property Name="Destination[0].destName" Type="Str">CSZ-Chamber-Control.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">/C/NGC_BUILDS/NI_AB_PROJECTNAME/CSZ-Chamber-Control.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/Builds/CSZ-Chamber-Control.exe</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">/C/NGC_BUILDS/NI_AB_PROJECTNAME/data</Property>
+				<Property Name="Destination[1].path" Type="Path">/C/Builds/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/CSZ-EZT.ico</Property>
 				<Property Name="Source[0].Container.applyDestination" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{F969B11F-1B5C-4191-A191-FEAE42271686}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{48C225A5-8A9B-446F-ACE2-B4BCD34DD3D1}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/EZT560-Chamber-Control-Tool.vi</Property>
@@ -162,10 +160,10 @@
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
-				<Property Name="TgtF_companyName" Type="Str">Northrop Grumman Corp</Property>
+				<Property Name="TgtF_companyName" Type="Str">CoderBear.Net</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">EZT560-Chamber-Control-Tool</Property>
 				<Property Name="TgtF_internalName" Type="Str">EZT560-Chamber-Control-Tool</Property>
-				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2022 Northrop Grumman Corp</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2026</Property>
 				<Property Name="TgtF_productName" Type="Str">EZT560-Chamber-Control-Tool</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{B10B3A9C-74C7-4935-81AA-71A4ECDB17B7}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">CSZ-Chamber-Control.exe</Property>
