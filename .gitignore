@@ -9,10 +9,6 @@
 builds/
 **/*.aliases
 **/*.lvlps
-**/*.lvlibp
-**/*.lvclass
-**/*.lvlib
-**/*.llb
 **/*.exe
 **/*.dll
 **/*.bin
