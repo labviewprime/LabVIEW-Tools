@@ -67,7 +67,7 @@ RF Paths Calibration Tool is a standalone application for calibrating RF test ca
 The listed instruments are the minimum required to be installed in <Labview install path><instr.lib> directory. These can be omitted from the project as needed.
 
 * **Primary Hardware:**
-  * `Windows 7/10/11 - 64-bit`
+  * `Windows 7/10/11 - 32/64-bit`
 
 * **Instruments:**
     * ``
